@@ -1,0 +1,36 @@
+{
+    "name": "martinswiderski/mysql-migrate",
+    "type": "library",
+    "description": "PHP >= 5.4 Command-line tool for reading MySQL migration scripts directory",
+    "keywords": [
+        "mariadb",
+        "mysql",
+        "percona",
+        "sql",
+        "migration",
+        "php cli",
+        "command line",
+        "commandline"
+    ],
+    "homepage": "https://github.com/martinswiderski/mysql-migrate.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Swiderski",
+            "email": "martin.swiderski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0" : {
+            "MysqlMigrate\\" : "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1"
+        }
+    }
+}
