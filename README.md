@@ -1,2 +1,2 @@
 # mysql-migrate
-MySQL/MariaDB/Percona .sql migration scripts management tool
+Simple MySQL migration .sql scripts runner
